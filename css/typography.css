@@ -1,31 +1,21 @@
 /*
   Colour Palette
-  - Background beige: #f2f1ed - rgb(242, 241, 237)
-  - Heading green: #5d8432 - rgb(93,132,50)
+  - Background blacktrans: #000000- rgb(0,0,0, .25)
+  - Background soup green: #99b0aa - rgb(153,176,170)
   - Mark light green: #e3f595 - rgb(227,245,149);
-  - Link purple: #793284 - rgb(121,50,132)
-  - Link desaturated purple: #68446e - rgb(104,68,110)
-  - Link magenta: #b42885 - rgb(180,40,133)
-  - Light brown: #c7c0ae - rgb(199, 192, 174)
-  - Light-light brown: #eae8e1 - rgb(234, 232, 225)
+  - beige: #d9c8b4 rgba(217,200,180); 
+  - dark beige: #c7c0AE rgba(199,192,174)
  */
 
 html {
-  background-color: #99b0aa;
-  color:rgb(255,255,255);
-}
-
-body {
-	background-color: rgba(0,0,0,.25);
-	width: 80%;
-	margin: 0 5% 0 5%;
-	padding: 0 5% 0 5%;
+	background-color:#99b0aa;
 }
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
   margin: 0 0 1.5rem;
+  color:#d9c8b4;
 }
 
 .yotta {
@@ -84,30 +74,28 @@ small, .milli {
   line-height: 1.8984;
 }
 
-h1,
+h1,h2
 .brand {
   color: #fff;
   font-family: 'Paytone One', sans-serif;
   text-transform: uppercase;
 }
 
- h2, h3, h4, h5, h6, {
+ h3, h4, h5, h6, {
 	 font-family: "Courier New", Courier, monospace;
 	 color: rgb(255,255,255);
  }
 
 a,
 a:link {
-  border-bottom: 0.1em solid rgba(153,176,170,0.5);
   transition: all 150ms linear;
-
-  color: #99b0aa;
+color: #fff;
   text-decoration: none;
 }
 
 a:visited {
-  color: #d9c8b4;
-  border-bottom-color: rgba(217,200,180,0.5);
+	color: #c7c0AE;
+  border-bottom: 0.1em solid;
 }
 
 a:hover,
@@ -115,6 +103,7 @@ a:focus,
 a:active {
   color: #e65132;
   border-bottom-color: #e65132;
+  border-bottom: 0.1em solid;
 }
 
 sup,
