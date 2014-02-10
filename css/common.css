@@ -31,6 +31,7 @@ html {
 }
 
 body {
+	background-color: rgba(0,0,0,.25);
 	margin: 0;
 	padding: 0;
 }
@@ -39,4 +40,3 @@ body {
 	display: block;
 	width: 100%;
 }
-
