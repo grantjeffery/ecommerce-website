@@ -14,6 +14,9 @@
 }
 
 html {
+	margin: 0;
+	padding: 0;
+	background-color:#99b0aa;
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -25,6 +28,11 @@ html {
 
 	text-indent: 100%;
 	white-space: nowrap;
+}
+
+body {
+	margin: 0;
+	padding: 0;
 }
 
 .img-flex {
