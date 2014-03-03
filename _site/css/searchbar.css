@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */	
+
+form {
+	float:none;
+	width: 10em;
+	margin: auto;
+	text-decoration: none;
+	padding-top: .50em;
+	padding-left: .50em;
+	padding-bottom: .50em;
+	background-color: #faedd7;
+	color: #99b0aa;
+	font-weight: bold;
+	border: solid;
+	border: thick outset 1em;
+	border-color:#99b0aa; 
+}
