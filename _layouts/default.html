@@ -2,23 +2,33 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<title></title>
+<meta name="handheldfreindly" content="true">
+<meta name="moblieoptimized" content="240">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
+<link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/theme.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/listgroup.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/flexible-grid.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
-	<h1>Dinoburgers</h1>
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/news.html">News</a></li>
-			<li><a href="{{site.baseurl}}/about.html">About</a></li>
-			<li><a href="{{site.baseurl}}/thankyou.html">Thank You</a></li>
-		</ul>
-	</nav>
+	<h1>Dino Burgers</h1>
+	{% include nav.html %}
 </header>
 
 {{content}}
 
+<footer>
+{% include nav.html %}
+	<p>@ 2014 Dino Burgers Ltd. </p>
+<footer>
 </body>
 </html>
