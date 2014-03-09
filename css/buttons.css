@@ -2,8 +2,8 @@
 /* CSS Document */
 
 .btn,
-.btn:link,
-.btn:visited {
+.btn:link
+ {
 	display: inline-block;
 	text-transform: uppercase;
 	text-decoration:none;
@@ -11,18 +11,32 @@
 	padding-bottom: .25em;
 	padding-left: .75em;
 	padding-right: .75em;
-	background-color: #faedd7;
-	color: #99b0aa;
+	background-color: #4b4d52;
+	color: #fff2e7;
 	font-weight: bold;
-	border: solid;
-	border: thick outset 3em;
-	border-color:#99b0aa; 
+	border-bottom: nonel;
 }
 
-.btn-alt,
-.btn-alt: link,
-.btn-alt:visited {
-	color: #d9c884;
-	border-color: #d9c884;
+.btn:visited {
+	text-decoration:none;
+	color: #DE86642;
+
+}
+
+.alt-btn,
+.alt-btn:link,
+.alt-btn:visited {
+	color: #fff2e7;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-left: .75em;
+	padding-right: .75em;
+	background-color: #b9b1a8;
+	text-decoration:none;
+	
+}
+
+.a:hover {
+	text-decoration:none;
 }
 
