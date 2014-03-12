@@ -20,6 +20,9 @@
 .btn:visited {
 	text-decoration:none;
 	color: #DE86642;
+
+}
+
 .alt-btn,
 .alt-btn:link,
 .alt-btn:visited {
@@ -30,6 +33,7 @@
 	padding-right: .75em;
 	background-color: #b9b1a8;
 	text-decoration:none;
+	
 }
 
 .a:hover {
