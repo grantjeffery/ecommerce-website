@@ -23,6 +23,14 @@ html {
 	text-size-adjust: 100%;
 }
 
+.masthead {
+	padding: 1em;
+	background: #FFF2E7 url url(../img/map.gif) no-repeat center center;
+	background-size:cover;
+	
+	color: #fff;
+}
+
 .ir {
 	overflow: hidden;
 
