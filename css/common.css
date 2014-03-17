@@ -48,3 +48,21 @@ body {
 	display: block;
 	width: 100%;
 }
+
+.nav { 
+margin: 0;
+padding: 0;
+
+list-style-type: none;
+}
+
+.nav li {
+	background-color: #4B4D52;
+	display: inline-block;
+}
+	
+
+.current {
+	
+	color: #de8642;
+}
