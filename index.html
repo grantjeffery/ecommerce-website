@@ -2,9 +2,23 @@
 layout: default
 ---
 
-<h1> Dino Burgers </h1>
-<p> Our burgers are prehistoric! </p>
+<div class="main">
+	<h1> Dino Burgers &#153; </h1>
+	<p> Our burgers are prehistoric!  Dino Burger's Time Hunters&#169 provide game meats from both the Jurassic and Cretaceous for whatever your taste in high-quality dinos. </p>
 
 
-<p> test test </p>
+<h2> Game meat by era </h2>
+
+ 
+ 
+  <ul>
+  {% for product in site.posts %}
+		<li>
+			<a href="">{{product.title}}</a>
+			<p>{{product.<p>
+		</li>
+	{% endfor %}
+ </ul>
+	
+</div>
 
