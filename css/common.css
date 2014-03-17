@@ -50,11 +50,11 @@ body {
 }
 
 .nav { 
-margin: 0;
-padding: 0;
-background-color: #4B4D52;
+	margin: 0;
+	padding: 0;
+	background-color: #4B4D52;
 
-list-style-type: none;
+	list-style-type: none;
 }
 
 .nav li {
