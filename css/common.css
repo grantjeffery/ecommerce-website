@@ -24,10 +24,7 @@ html {
 }
 
 .masthead {
-	padding: 1em;
-	background: #FFF2E7 url url(../img/map.gif) no-repeat center center;
-	background-size:cover;
-	
+	background: #4B4D52;
 	color: #4B4D52;
 }
 
@@ -52,6 +49,10 @@ nav li {
 .current {
 	 background-color: #FFF2E7;
 	 padding: 1em;
+}
+
+.nav-bottom {
+	font-size: 0.8889rem;
 }
 
 .ir {
