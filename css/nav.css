@@ -1,3 +1,24 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.nav { 
+	margin: 0;
+	padding: 0;
+	background-color: #4B4D52;
+
+	list-style-type: none;
+}
+
+.nav li {
+	background-color: #4B4D52;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	display: inline-block;
+}
+	
+
+.current {
+	color: #de8642;
+}
