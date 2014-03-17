@@ -1,0 +1,18 @@
+---
+layout: index
+---
+		 <div class="unit unit-s-1 unit-l-1-2 gutter-1-2" >
+		 <h2>Jurassic Game Meat </h2>
+			  <ul class="giga unit">
+			  {% for product in site.categories.jurassic %}
+					<li>
+						<a href="">{{product.title}}</a>
+						<p>{{product.meta}}</p>
+					</li>
+				{% endfor %}
+			 </ul>
+			 
+		 </div>
+
+{{content}}
+
