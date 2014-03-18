@@ -179,7 +179,7 @@ ul li {
 }
 
 ul li:before {
-  content: "•";
+  text-decoration:none;
   position: absolute;
   left: -0.6em;
   color: #c7c0ae;

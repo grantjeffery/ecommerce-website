@@ -6,12 +6,13 @@ layout: index
 			  <ul class="giga unit">
 			  {% for product in site.categories.jurassic %}
 					<li>
+						<img img class="img-flex" src="{{product.image}}"/>
 						<a href="">{{product.title}}</a>
 						<p>{{product.meta}}</p>
+						<a class="btn giga" href="#">BUY NOW!</a>
 					</li>
 				{% endfor %}
 			 </ul>
-			 
 		 </div>
 
 {{content}}

@@ -29,6 +29,7 @@ html {
 }
 
 nav { 
+	margin: auto;
 	margin: 0;
 	padding: 0;
 	background-color: #4B4D52;
@@ -50,6 +51,7 @@ nav li {
 	 background-color: #FFF2E7;
 	 padding: 1em;
 }
+
 
 .nav-bottom {
 	font-size: 0.8889rem;
@@ -74,4 +76,9 @@ body {
 
 .main {
 	padding: 1em;
+}
+
+
+ul li:before {
+  text-decoration: none;
 }
