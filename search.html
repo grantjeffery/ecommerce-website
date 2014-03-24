@@ -1,22 +1,21 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>search</title>
-<link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
-<link href="../../inclass-ecommerce/css/media-object.css" rel="stylesheet">
-<link href="../../inclass-ecommerce/css/typography.css" rel="stylesheet">
-<link href="../css/common.css" rel="stylesheet">
-<link href="../css/list-group.css" rel="stylesheet">
-<link href="../../inclass-ecommerce/css/buttons.css" rel="stylesheet">
-<link href="../css/media-object.css" rel="stylesheet">
-<link href="../../inclass-ecommerce/css/header.css" rel="stylesheet">
-<link href="../css/flexible-grid.css" rel="stylesheet">
-<link href="../css/searchbar.css" rel="stylesheet">
-</head>
-<body>
-<form method="get" action="{{site.baseurl}}/search" id="search">
-	<input name="q" type="text" size="40" placeholder="Search..."/>
-</form>
-</body>
-</html>
+---
+layout: index
+---
+{{content}}
+
+<div class="grid">
+		<div class="unit gutter unit-s-1 unit-l-2 gutter-1">
+		<h2>Search Results</h2>
+		
+			   <ul class="giga unit">
+			  {% for product in site.categories.cretaceous %}
+					<li>
+						<img img class="img-flex" src="{{product.image}}"/>
+						<a href="">{{product.title}}</a>
+						<p>{{product.meta}}</p>
+						<a class="btn giga" href="{{site.baseurl}}/cart.html">Add to Cart</a >
+					</li>
+				{% endfor %}
+			 </ul>
+		</div>
+ </div>

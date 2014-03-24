@@ -1,5 +1,9 @@
 .footer {
-	padding: 1em;
+	padding-top: 1em;
+	padding-right: 4em;
+	padding-left: 4em;
+	padding bottom: 1em;
+	text-align: center;
 }
 
 .footer-copyright,
@@ -14,13 +18,5 @@
 }
 
 @media only screen and (min-width: 50em) {
-
-  .footer-copyright {
-    text-align: left;
-  }
-
-  .footer-links {
-    text-align: right;
-  }
 
 }
