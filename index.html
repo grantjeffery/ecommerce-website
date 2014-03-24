@@ -5,17 +5,18 @@ layout: index
 <div class="main">
 
 	<h1> Dino Burgers &#153; </h1>
-	<p class="giga"> Our burgers are prehistoric!  Dino Burger's Time Hunters&#169 provide game meats from both the Jurassic and Cretaceous for whatever your taste in high-quality dinos. </p>
+	<p class="giga"> Our burgers are prehistoric! Dino Burger's Time Hunters&#169 provide game meats from both the Jurassic and Cretaceous for whatever your taste in high-quality dinos. </p>
+	{% include sub-nav.html %}
 	<section>
 	
 	{{content}}
-		<div class="grid">
-		<div class="unit gutter unit-s-1 unit-l-2 gutter-1">
-		<h2>Cretaceous Game Meat </h2>
+		<div>
+		<div>
+		<h2>Jurassic Game Meat </h2>
 		
-			   <ul class="giga unit">
+			   <ul class="giga grid">
 			  {% for product in site.categories.cretaceous %}
-					<li>
+					<li class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-4 gutter-1">
 						<img img class="img-flex" src="{{product.image}}"/>
 						<a href="">{{product.title}}</a>
 						<p>{{product.meta}}</p>
@@ -25,6 +26,6 @@ layout: index
 			 </ul>
 		 </div>
 	 </div>
-	 </section>
+ </section>
 </div>
 

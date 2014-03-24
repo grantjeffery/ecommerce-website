@@ -64,6 +64,9 @@ nav li {
 	white-space: nowrap;
 }
 
+product li {
+	padding-bottom: 1em;
+}
 
 form {
 	float:right;
@@ -102,4 +105,21 @@ ul li:before {
 
 h1 {
 	text-align: center;
+	padding-bottom: .5em;
 }
+
+h2 {
+	padding-bottom: .5em;
+}
+
+.navbox {
+	
+	height: 5em;
+}
+/*
+.ilbox {
+	
+	width:100%;
+	border: thin;
+	border-color:#D0CABF;
+}*/
