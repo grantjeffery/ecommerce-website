@@ -64,6 +64,22 @@ nav li {
 	white-space: nowrap;
 }
 
+
+form {
+	float:right;
+	margin: auto;
+	text-decoration: none;
+	border:thick;
+	border-color:#FFF2E7;
+	padding-top: .50em;
+	padding-left: .50em;
+	padding-bottom: .50em;
+	background-color: #4b4d52;
+	color: #B9B1A8;
+	font-family:"Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
 body {
 	margin: 0;
 	padding: 0;
