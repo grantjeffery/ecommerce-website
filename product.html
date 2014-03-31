@@ -15,7 +15,7 @@ layout: index
 			  <ul class="giga grid">
 			  {% for product in site.categories.jurassic %}
 					<li class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-4 gutter-1">
-						<img img class="img-flex" src="{{product.image}}"/>
+							<a href="{{site.baseurl}}/cart.html" /> <img class="img-flex" src="{{product.image}}" /><a/>
 						<a href="">{{product.title}}</a>
 						<p>{{product.meta}}</p>
 						<a class="btn giga" href="{{site.baseurl}}/cart.html">Add to Cart</a >
