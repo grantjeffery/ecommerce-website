@@ -85,7 +85,7 @@ small, .milli {
   line-height: 1.8984;
 }
 
-h1,h2
+h1,h2	
 .brand {
   font-family: 'Paytone One', sans-serif;
   text-transform: uppercase;
@@ -109,9 +109,14 @@ a:visited {
 }
 
 a:hover,
-a:focus,
 a:active {
   color: #e65132;
+  outline: none;
+  
+}
+
+a:focus {
+	iutline: 2px solid #FFF;
 }
 
 sup,
