@@ -1,7 +1,4 @@
-@charset "UTF-8";
-
-/* CSS Document */
-
+---
 ---
 
 {% include css/common.css %}
@@ -13,6 +10,6 @@
 {% include css/media-object.css %}
 {% include css/footer.css %}
 
----
+
 
 

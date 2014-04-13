@@ -16,29 +16,21 @@
 html {
 	margin: 0;
 	padding: 0;
-	background-color:#fff2e7;
+	background-color:#fffff;
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 }
 
-.masthead {
-	background: #4B4D52;
-	color: #4B4D52;
-}
-
 nav { 
 	margin: auto;
 	margin: 0;
 	padding: 0;
-	background-color: #4B4D52;
-
 	list-style-type: none;
 }
 
 nav li {
-	background-color: #4B4D52;
 	padding-top: .5rem;
 	padding-bottom: .5rem;
 	padding-right: 1rem;
@@ -48,7 +40,7 @@ nav li {
 	
 
 .current {
-	 background-color: #FFF2E7;
+	 background-color: #FFFF;
 	 padding: 1em;
 }
 
@@ -72,8 +64,6 @@ form {
 	float:right;
 	margin: auto;
 	text-decoration: none;
-	border:thick;
-	border-color:#FFF2E7;
 	padding-top: .50em;
 	padding-left: .50em;
 	padding-bottom: .50em;
@@ -95,7 +85,13 @@ body {
 }
 
 .main {
-	padding: 4em;
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+main {
+	padding-left: 4em;
+	padding-right: 4em;
 }
 
 
@@ -115,6 +111,11 @@ h2 {
 .navbox {
 	
 	height: 5em;
+}
+
+.promo {
+	position:static;
+	width: 100%;
 }
 /*
 .ilbox {

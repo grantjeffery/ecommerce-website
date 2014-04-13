@@ -11,22 +11,26 @@
 	padding-bottom: .25em;
 	padding-left: .75em;
 	padding-right: .75em;
-	background-color: #4b4d52;
-	color: #fff2e7;
-	font-weight: bold;
-	border-bottom: none;
+	font-family:"Courier New", Courier, monospace;
+	font-style:italic;
+	border: solid thin;
+}
+
+.btn:hover{
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	border: solid thin rgb(255,255,255);
 }
 
 .btn:visited {
 	text-decoration:none;
 	color: #DE86642;
-
 }
 
 .alt-btn,
 .alt-btn:link,
 .alt-btn:visited {
-	color: #fff2e7;
+	color: #FFFFF;
 	padding-top: .25em;
 	padding-bottom: .25em;
 	padding-left: .75em;
@@ -40,3 +44,11 @@
 	text-decoration:none;
 }
 
+
+@media only screen and (min-width: 1000px){	
+.btn {
+	 font-size: 0.8889rem;
+  	line-height: 1.6875;
+}
+
+}

@@ -9,20 +9,21 @@
  */
 
 html {
-	background-color:#FFF2E7;
+	background-color:#FFFFF;
 }
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
   margin: 0 0 1.5rem;
-  color:#4B4D52;
+  color:#0000;
 }
 
 
 p, ul, ol, dl,
 blockquote, table, hr {
 	font-family: "Courier New", Courier, monospace;
+	color: #666;
 }
 
 .yotta {
@@ -93,30 +94,28 @@ h1,h2
 
  h3, h4, h5, h6, {
 	 font-family: "Courier New", Courier, monospace;
-	 color: rgb(255,255,255);
  }
 
 a,
 a:link {
   transition: all 150ms linear;
-  color: #DE8642;
+  color: #666;
   text-decoration:none;
 }
 
 a:visited {
-	color: #c7c0AE;
-  border-bottom: 0.1em solid;
+	color: #0000;
 }
 
 a:hover,
 a:active {
-  color: #e65132;
   outline: none;
+  border-bottom: medium;
   
 }
 
 a:focus {
-	iutline: 2px solid #FFF;
+	iutline: 2px solid #0000;
 }
 
 sup,
@@ -151,7 +150,7 @@ del {
 }
 
 mark {
-  background-color: #e3f595;
+  background-color: #FFFFFF;
 }
 
 hr {
@@ -213,11 +212,20 @@ caption {
 }
 
 th {
-  background-color: #eae8e1;
+  background-color: #555555;
   text-align: left;
 }
 
 th, td {
   padding: 0.25rem;
   border: 2px solid #4b4d52;
+}
+
+
+@media only screen and (min-width: 1000px){	
+p {
+	 font-size: 0.8889rem;
+  	line-height: 1.6875;
+}
+
 }
