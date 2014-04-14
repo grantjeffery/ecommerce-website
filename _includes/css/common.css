@@ -123,20 +123,19 @@ h2 {
 }
 
 .banner1 {
-	background color:rgb(51,51,51);
+	height: 3.5rem;
+	background:rgb(51,51,51);
 	width:90%;
-	padding-right: 5%;
-	padding-left: 5%;
 	position: absolute;
 margin: 0rem 5%;
-background: rgba(0,0,0,0.5);
 -webkit-transform: skew(20deg);
 -moz-transform: skew(20deg);
 -o-transform: skew(20deg);
 }
 
 .banner2 {
-	background color:rgb(51,51,51);
+	height: 3.5rem;
+	background:rgb(51,51,51);
 	width:90%;
 	padding-right: 5%;
 	padding-left: 5%;
