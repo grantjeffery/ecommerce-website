@@ -7,9 +7,26 @@
   -dark blue #4B4D52;
   
  */
-
+ 
+---
+title: CSS stylesheet
+---
+ 
 html {
 	background-color:#FFFFF;
+}
+
+
+@font-face {
+    font-family: 'geared_slabbold';
+    src: url('{{baseurl}}type/gearedslab-bold.eot');
+    src: url('{{baseurl}}type/gearedslab-bold.eot?#iefix') format('embedded-opentype'),
+         url('{{baseurl}}type/gearedslab-bold.woff') format('woff'),
+         url('{{baseurl}}type/gearedslab-bold.ttf') format('truetype'),
+         url('{{baseurl}}type/gearedslab-bold.svg#geared_slabbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -27,37 +44,37 @@ blockquote, table, hr {
 }
 
 .yotta {
-  font-family: 'Paytone One', sans-serif;
+  font-family: 'geared_slabbold', sans-serif;
   font-size: 2.2807rem;
   line-height: 1.3154;
 }
 
 .zetta {
-  font-family: 'Paytone One', sans-serif;
+  font-family: 'geared_slabbold', sans-serif;
   font-size: 2.0273rem;
   line-height: 1.4798;
 }
 
 h1, .exa {
-	font-family: 'Paytone One', sans-serif;
+	font-family: 'geared_slabbold', sans-serif;
   font-size: 1.8020rem;
   line-height: 1.6648;
 }
 
 h2, .peta {
-  font-family: 'Paytone One', sans-serif;
+  font-family: 'geared_slabbold', sans-serif;
   font-size: 1.6018rem;
   line-height: 1.8729;
 }
 
 h3, .tera {
-  font-family: 'Paytone One', sans-serif;
+  font-family: 'geared_slabbold', sans-serif;
   font-size: 1.4238rem;
   line-height: 1.0535;
 }
 
 h4, .giga {
-  font-family: 'Paytone One', sans-serif;
+  font-family: 'geared_slabbold', sans-serif;
   font-size: 1.2656rem;
   line-height: 1.1852;
 }
@@ -88,7 +105,7 @@ small, .milli {
 
 h1,h2	
 .brand {
-  font-family: 'Paytone One', sans-serif;
+  font-family: 'geared_slabbold', sans-serif;
   text-transform: uppercase;
 }
 
@@ -99,8 +116,12 @@ h1,h2
 a,
 a:link {
   transition: all 150ms linear;
-  color: #666;
+  color: rgb(255,255,255);
   text-decoration:none;
+}
+
+.black{
+	color:rgb(0,0,0);
 }
 
 a:visited {
@@ -110,12 +131,12 @@ a:visited {
 a:hover,
 a:active {
   outline: none;
-  border-bottom: medium;
+  border-bottom: solid rgb(255,255,255) medium;
   
 }
 
 a:focus {
-	iutline: 2px solid #0000;
+	border-bottom: solid rgb(255,255,255) medium;
 }
 
 sup,
@@ -222,10 +243,28 @@ th, td {
 }
 
 
-@media only screen and (min-width: 1000px){	
-p {
+
+@media only screen and (max-width: 3000px){
+	p {
 	 font-size: 0.8889rem;
-  	line-height: 1.6875;
+  line-height: 1.6875;
+}
+}
+@media only screen and (max-width: 1000px){	
+  p {
+	  font-size: 1rem;
+  line-height: 1.0535;
+
+  }
+  }
+
+@media only screen and (max-width: 650px){
+	
+p {
+	font-size: 1.1250rem;
+  line-height: 1.3333;
 }
 
 }
+
+	

@@ -25,13 +25,14 @@ html {
 
 nav { 
 	margin: auto;
-	margin: 0;
-	padding: 0;
 	list-style-type: none;
 }
 
 nav li {
-	padding-top: .5rem;
+	font-family: 'geared_slabbold', sans-serif;
+	font-size: 1.6018rem;
+  line-height: 1.8729;
+	padding-top: .75rem;
 	padding-bottom: .5rem;
 	padding-right: 1rem;
 	padding-left: 1rem;
@@ -41,7 +42,6 @@ nav li {
 
 .current {
 	 background-color: #FFFF;
-	 padding: 1em;
 }
 
 
@@ -99,6 +99,10 @@ ul li:before {
   text-decoration: none;
 }
 
+li {
+	text-align:center; 
+}
+
 h1 {
 	text-align: center;
 	padding-bottom: .5em;
@@ -116,6 +120,32 @@ h2 {
 .promo {
 	position:static;
 	width: 100%;
+}
+
+.banner1 {
+	background color:rgb(51,51,51);
+	width:90%;
+	padding-right: 5%;
+	padding-left: 5%;
+	position: absolute;
+margin: 0rem 5%;
+background: rgba(0,0,0,0.5);
+-webkit-transform: skew(20deg);
+-moz-transform: skew(20deg);
+-o-transform: skew(20deg);
+}
+
+.banner2 {
+	background color:rgb(51,51,51);
+	width:90%;
+	padding-right: 5%;
+	padding-left: 5%;
+	position: absolute;
+margin: 0rem 5%;
+background: rgba(0,0,0,0.5);
+-webkit-transform: skew(20deg);
+-moz-transform: skew(20deg);
+-o-transform: skew(20deg);
 }
 /*
 .ilbox {

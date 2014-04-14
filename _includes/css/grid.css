@@ -25,6 +25,7 @@
   word-spacing: normal;
   display: inline-block;
   visibility: visible;
+  margin-bottom: 1em;
 }
 
 .grid-bottom .unit {
