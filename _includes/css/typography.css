@@ -41,6 +41,7 @@ p, ul, ol, dl,
 blockquote, table, hr {
 	font-family: "Courier New", Courier, monospace;
 	color: #666;
+	text-align:left;
 }
 
 .yotta {
@@ -115,8 +116,9 @@ h1,h2
 
 a,
 a:link {
+	text-align:left;
   transition: all 150ms linear;
-  color: rgb(255,255,255);
+  color: rgb(0,0,0);
   text-decoration:none;
 }
 
@@ -131,12 +133,12 @@ a:visited {
 a:hover,
 a:active {
   outline: none;
-  border-bottom: solid rgb(255,255,255) medium;
+  border-bottom: solid rgb(0,0,0) medium;
   
 }
 
 a:focus {
-	border-bottom: solid rgb(255,255,255) medium;
+	border-bottom: solid rgb(0,0,0) medium;
 }
 
 sup,
@@ -207,7 +209,7 @@ ul li:before {
   text-decoration:none;
   position: absolute;
   left: -0.6em;
-  color: #c7c0ae;
+  color: rgb(0,0,0);
 }
 
 blockquote {

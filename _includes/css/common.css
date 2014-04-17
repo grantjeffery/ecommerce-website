@@ -23,17 +23,33 @@ html {
 	text-size-adjust: 100%;
 }
 
-nav { 
+ol, ul {
+	list-style: none;
+}
+
+.navbox {
 	margin: auto;
+	width: 90%;
+	border-top: rgb(0,0,0) thin solid;
+	
+}
+
+input{
+	width: 100%;
+	border: none;
+	
+}
+	
+	
+nav-top { 
+	margin-right:10em;
 	list-style-type: none;
 }
 
 nav li {
 	font-family: 'geared_slabbold', sans-serif;
-	font-size: 1.6018rem;
-  line-height: 1.8729;
-	padding-top: .75rem;
-	padding-bottom: .5rem;
+	font-size: 1.3018rem;
+	padding-top: .5rem;
 	padding-right: 1rem;
 	padding-left: 1rem;
 	display: inline-block;
@@ -41,17 +57,17 @@ nav li {
 	
 
 .current {
-	 background-color: #FFFF;
+	 background-color: rgb(255,255,255);
 }
 
 
 .nav-bottom {
+	border-top: thin black solid;
 	font-size: 0.8889rem;
 }
 
 .ir {
 	overflow: hidden;
-
 	text-indent: 100%;
 	white-space: nowrap;
 }
@@ -60,18 +76,6 @@ product li {
 	padding-bottom: 1em;
 }
 
-form {
-	float:right;
-	margin: auto;
-	text-decoration: none;
-	padding-top: .50em;
-	padding-left: .50em;
-	padding-bottom: .50em;
-	background-color: #4b4d52;
-	color: #B9B1A8;
-	font-family:"Courier New", Courier, monospace;
-	font-weight: bold;
-}
 
 body {
 	margin: 0;
@@ -99,22 +103,12 @@ ul li:before {
   text-decoration: none;
 }
 
-li {
-	text-align:center; 
-}
-
 h1 {
 	text-align: center;
-	padding-bottom: .5em;
 }
 
 h2 {
 	padding-bottom: .5em;
-}
-
-.navbox {
-	
-	height: 5em;
 }
 
 .promo {
@@ -122,30 +116,38 @@ h2 {
 	width: 100%;
 }
 
-.banner1 {
-	height: 3.5rem;
-	background:rgb(51,51,51);
-	width:90%;
-	position: absolute;
-margin: 0rem 5%;
--webkit-transform: skew(20deg);
--moz-transform: skew(20deg);
--o-transform: skew(20deg);
+.productnav{
+	margin: auto;
 }
 
-.banner2 {
-	height: 3.5rem;
-	background:rgb(51,51,51);
-	width:90%;
-	padding-right: 5%;
-	padding-left: 5%;
-	position: absolute;
-margin: 0rem 5%;
-background: rgba(0,0,0,0.5);
--webkit-transform: skew(20deg);
--moz-transform: skew(20deg);
--o-transform: skew(20deg);
+.productnav li{
+	border: solid thin black;
+	text-align: center;
 }
+
+.cartbucket {
+	width: 80%;
+	border: solid thin black;
+}
+
+form {
+	
+	float: left;
+	text-decoration: none;
+	font-family:"Courier New", Courier, monospace;
+	font-weight: bold;
+	width: 10%;
+	text-decoration: none;
+	border: solid thin black;
+	margin-top: .5em;
+	
+}
+
+.lineunder {
+	border-bottom: solid thin black;
+}
+
+
 /*
 .ilbox {
 	

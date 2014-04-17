@@ -6,19 +6,19 @@ layout: index
 
 	<h1> Underground Brewers</h1>
 	<p class="giga"> Our burgers are prehistoric! Dino Burger's Time Hunters provide game meats from both the Jurassic and Cretaceous for whatever your taste in high-quality dinos. </p>
-	<img class="promo" src="{{site.baseurl}}/img/drainpromo.svg" />
+	<img class="promo" src="{{site.baseurl}}/img/drainpromo.svg"/>
 	{% include sub-nav.html %}
 	<section>
 	
 	{{content}}
+	<div>
 		<div>
-		<div>
-		<h2>Jurassic Game Meat </h2>
+		<h2>IPA's</h2>
 		
 			   <ul class="giga grid">
 			  {% for product in site.categories.cretaceous %}
 					<li class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-4 gutter-1">
-						<a href="{{site.baseurl}}/cart.html"> <img class="img-flex" src="{{product.image}}" alt="product"/></a>
+						<a href="{{site.baseurl}}/productpage.html"> <img class="img-flex" src="{{product.image}}" alt="product"/></a>
 						<a href="{{product.title}}"></a>
 						<p>{{product.meta}}</p>
 						<a class="btn giga" href="{{site.baseurl}}/cart.html">Add to Cart</a>

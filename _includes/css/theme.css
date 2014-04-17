@@ -9,13 +9,12 @@ body {
 
 .logo {
 	min-width: 256px;
-	max-width: 700px;
+	max-width: 350px;
 	margin: 0 auto;
 }
 
 .nav {
 	text-align: center;
-	margin-top: 4.5em;
 }
 
 @media only screen and (min-width: 50em) {
